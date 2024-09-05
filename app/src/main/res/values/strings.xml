@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="quot_quot">Викторина \"Я историк\"</string>
+    <string name="start">Начать</string>
+    <string name="a">A) Иван Грозный</string>
+    <string name="b">B) Петр I</string>
+    <string name="c">C) Александр Невский</string>
+    <string name="answer">Ответить</string>
+    <string name="questionTwo">2. В каком году произошло крещение Руси?</string>
+    <string name="counts">0</string>
+    <string name="great">Отличный</string>
+    <string name="good">Хороший</string>
+    <string name="norm">Удовлетворительный</string>
+    <string name="unsatisfactory">Неудовлетворительный </string>
+    <string name="bad">Плохой</string>
+    <string name="very_bad">Нулевой</string>
+    <string name="level_of_knowledge">Уровень знаний: </string>
+    <string name="counts_ball">Колличество баллов:</string>
+    <string name="level">level</string>
+    <string name="questionOne">1. Кто был первым царем России?</string>
+    <string name="questionThree">3. Кто был последним императором Российской империи?</string>
+    <string name="questionFour">4. Какое событие привело к началу Октябрьской революции 1917 года?</string>
+    <string name="questionFive">5. Как называлась первая конституция Российской Федерации, принятая в 1993 году?</string>
+    <string name="a5">A) Основной Закон Российской Федерации</string>
+    <string name="b5">B) Конституция Российской Федерации</string>
+    <string name="c5">C) Устав Российской Федерации</string>
+    <string name="a4">A) Февральская революция</string>
+    <string name="b4">B) Война с Японией</string>
+    <string name="c4">C) Абдикация Николая II</string>
+    <string name="a3">A) Николай II</string>
+    <string name="b3">B) Александр III</string>
+    <string name="c3">C) Павел I</string>
+    <string name="a2">A) 988 год</string>
+    <string name="b2">B) 1054 год</string>
+    <string name="c2">C) 1125 год</string>
+</resources>
