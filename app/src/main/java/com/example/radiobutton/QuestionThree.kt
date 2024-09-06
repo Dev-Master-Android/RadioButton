@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.RadioButton
 import androidx.appcompat.app.AppCompatActivity
+import com.example.radiobutton.QuestionOne.IntentUtils.myIntent
 
 class QuestionThree : AppCompatActivity() {
     private lateinit var answerThreeBTN: Button
@@ -28,10 +29,7 @@ class QuestionThree : AppCompatActivity() {
         val result = intent.getIntExtra("ANSWER_TWO", 0)
         resultCount += result
         answerThreeBTN.setOnClickListener {
-            val intent = Intent(this, QuestionFour::class.java).apply {
-                putExtra("ANSWER_THREE", resultCount)
-            }
-            startActivity(intent)
+            myIntent(this,"ANSWER_THREE",resultCount,QuestionFour::class.java)
         }
     }
 

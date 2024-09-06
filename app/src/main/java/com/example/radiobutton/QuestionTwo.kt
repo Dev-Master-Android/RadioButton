@@ -1,11 +1,14 @@
 package com.example.radiobutton
 
+import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.RadioButton
 import androidx.appcompat.app.AppCompatActivity
+import com.example.radiobutton.QuestionOne.IntentUtils.myIntent
 
 class QuestionTwo : AppCompatActivity() {
 
@@ -30,12 +33,11 @@ class QuestionTwo : AppCompatActivity() {
         val res = intent.getIntExtra("ANSWER", 0)
         resultCount += res
         answerTwoBTN.setOnClickListener {
-            val intent = Intent(this, QuestionThree::class.java).apply {
-                putExtra("ANSWER_TWO", resultCount)
-            }
-            startActivity(intent)
+            myIntent(this,"ANSWER_TWO",resultCount,QuestionThree::class.java)
         }
     }
+
+
 
     private val checkCorrectAnswer =
         View.OnClickListener { view ->
